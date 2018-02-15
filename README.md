@@ -1,5 +1,7 @@
 [![NPM](https://nodei.co/npm/gandi-dyndns-node.png)](https://nodei.co/npm/gandi-dyndns-node/)
 
+[![npm version](https://badge.fury.io/js/gandi-dyndns-node.svg)](https://badge.fury.io/js/gandi-dyndns-node)
+
 # gandi-dyndns-node
 
 This package is a very little piece of code (written in NodeJS) made just to be usefull. 
