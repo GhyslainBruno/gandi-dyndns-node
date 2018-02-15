@@ -47,7 +47,7 @@ rp(options)
 
                     rp(optionsToChange)
                         .then(function(response) {
-                            console.log(new Date() + ' | ' + response);
+                            console.log(new Date() + ' | ' + response.message);
                         })
                         .catch(function(error) {
                             console.log(new Date() + ' | ' + error);

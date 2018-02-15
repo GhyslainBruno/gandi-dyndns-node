@@ -19,9 +19,7 @@
   "files": [
     "gandyndns.js",
     "README.md",
-    "package.json",
-    ".gitignore",
-    "config/default.json"
+    "config"
   ],
   "keywords": [
     "gandi",
