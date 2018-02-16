@@ -41,3 +41,10 @@ For any bugs, PR are welcomed.
 Hope this helps.
 
 Pro tips: using it in a [cron task](https://www.google.fr/search?q=add+a+cron+task&rlz=1C5CHFA_enFR705FR709&oq=add+a+cron+task&aqs=chrome..69i57.3798j0j7&sourceid=chrome&ie=UTF-8) can be usefull.
+
+Pro tips #2: here is the crontab task working for Raspbian (but should work everywere, I guess) : 
+ ```{r, engine='bash', count_lines}
+ */5 * * * * /usr/local/lib/node_modules/gandi-dyndns-node/bin/gandyndnscli.js --domain-name YOUR_DOMAIN_NAME --name NAME_OF_RECORD --type TYPE_OF_RECORD --api-key YOUR_API_KEY update >> /tmp/gandi_dyndns_logs.txt
+ ``` 
+ 
+ 
