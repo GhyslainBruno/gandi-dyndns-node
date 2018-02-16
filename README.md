@@ -9,12 +9,12 @@ This package is a very little piece of code (written in NodeJS) made just to be 
 Why ? 
 ---
 
--> Because when you have some domain(s) at Gandi's and also have an IP dynamically changed you can't use a usual DynDns service.
+Because when you have some domain(s) at Gandi's and also have an IP dynamically changed you can't use a usual DynDns service.
 
-Who does it work ? 
+How does it work ? 
 ---
 
--> Will check what is your external IP address, using Gandi's service (http://me.gandi.net), check if the value at Gandi is the good one, and if not change it, quite simple. 
+Will check what is your external IP address, using Gandi's service (http://me.gandi.net), check if the value at Gandi is the good one, and if not change it, quite simple. 
 
 In order to use it you just have to add options to the "update" command: 
 * --domain-name: the domain on which you want to check the IP address
