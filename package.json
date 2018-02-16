@@ -1,6 +1,6 @@
 {
   "name": "gandi-dyndns-node",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Little piece of code in NodeJS to replace dynamically your IP of a Gandi's domain by your actual external IP address (for those who have a dynamic IP and who have some domains at Gandi's company). ",
   "main": "./lib/gandyndns.js",
   "bin": {
